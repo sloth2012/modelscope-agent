@@ -34,7 +34,7 @@
     },
     "kongfoo_search-reaction": {
         "url": "https://rest.kegg.jp/find/reaction"
-    },
+    }
 
 
 }

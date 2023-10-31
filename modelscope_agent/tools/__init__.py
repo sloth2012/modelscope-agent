@@ -23,5 +23,5 @@ DEFAULT_TOOL_LIST = {
     'modelscope_video-generation': 'TextToVideoTool',
     'modelscope_image-chat': 'ImageChatTool',
     'modelscope_speech-generation': 'TexttoSpeechTool',
-    'kongfoo_graph_search': 'GraphSearchTool',
+    'kongfoo_graph-search': 'GraphSearchTool',
 }
