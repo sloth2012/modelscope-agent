@@ -28,5 +28,13 @@
         "pipeline_params": {
             "use_safetensors": true
         }
-    }
+    },
+    "kongfoo_graph-search":{
+        "url": "http://kongfoo.cn/v1/api"
+    },
+    "kongfoo_search-reaction": {
+        "url": "https://rest.kegg.jp/find/reaction"
+    },
+
+
 }

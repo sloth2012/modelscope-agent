@@ -3,6 +3,7 @@ from copy import deepcopy
 from langchain.tools import BaseTool
 
 from .tool import Tool
+from langchain.chains import TransformChain, LLMChain, SimpleSequentialChain
 
 
 class LangchainTool(Tool):

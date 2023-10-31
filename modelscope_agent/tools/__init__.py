@@ -11,6 +11,7 @@ from .text_to_video_tool import TextToVideoTool
 from .tool import Tool
 from .translation_en2zh_tool import TranslationEn2ZhTool
 from .translation_zh2en_tool import TranslationZh2EnTool
+from .graph_search_tool import GraphSearchTool
 
 DEFAULT_TOOL_LIST = {
     'modelscope_text-translation-zh2en': 'TranslationZh2EnTool',
@@ -22,4 +23,5 @@ DEFAULT_TOOL_LIST = {
     'modelscope_video-generation': 'TextToVideoTool',
     'modelscope_image-chat': 'ImageChatTool',
     'modelscope_speech-generation': 'TexttoSpeechTool',
+    'kongfoo_graph_search': 'GraphSearchTool',
 }
