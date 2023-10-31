@@ -12,7 +12,7 @@ DEFAULT_TARGET = "glucose"
 
 class GraphSearchTool(ModelscopePipelineTool):
     default_model = ''
-    description = '根据起始与终止顶点，从图数据库中查询合成生物路径。如果是中文输入同时依赖插件modelscope_text-translation-zh2en翻译成英文。返回的结果中的paths内容可以直接返回给用户。'
+    description = '根据起始与终止顶点，从图数据库中查询合成生物路径；如果是中文输入同时依赖插件modelscope_text-translation-zh2en翻译成英文。'
     name = 'kongfoo_graph-search'
     parameters: list = [
         {
